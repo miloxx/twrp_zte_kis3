@@ -1,5 +1,5 @@
 # Inherit device configuration
-$(call inherit-product, device/ZTE/KIS3/device.mk)
+$(call inherit-product, device/zte/kis3/device.mk)
 
 # Device identifier. This mus come after all inclusions
 PRODUCT_DEVICE := kis3
