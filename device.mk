@@ -1,6 +1,6 @@
 LOCAL_PATH := device/zte/kis3
 
-$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
+$(shell mkdir -p $(OUT_DIR)/obj/KERNEL_OBJ/usr)
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 				LOCAL_KERNEL := $(LOCAL_PATH)/kernel
