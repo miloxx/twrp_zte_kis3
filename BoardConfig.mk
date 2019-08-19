@@ -17,7 +17,8 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 an
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
-BOARD_MKBOOTIMG_ARGS := --dt device/zte/kis3/dt.img --ramdisk_offset 0x01000000 --tags_offset 0x00000100
+BOARD_KERNEL_PREBUILT_DT := true
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --dt device/zte/kis3/dt.img --tags_offset 0x00000100
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00A00000
